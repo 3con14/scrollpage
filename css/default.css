@@ -1,0 +1,63 @@
+/* General Blueprint Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@font-face {
+	font-family: 'iconitos';
+	src:url('../fonts/icomoon.eot?axoz8t');
+	src:url('../fonts/icomoon.eot?#iefixaxoz8t') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?axoz8t') format('woff'),
+		url('../fonts/icomoon.ttf?axoz8t') format('truetype'),
+		url('../fonts/icomoon.svg?axoz8t#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #fff;
+}
+
+a {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
+h1 {
+	text-align: center;
+	padding: 1em;
+	font-size: 2em;
+}
+
+article {
+	max-width: 960px;
+	margin: 0 auto;
+	font-size: 1.3em;
+	padding: 2.875em 3.5em 1.875em;
+	position: relative;
+}
+header {
+	background: #2C6A8B;
+	text-align: center;
+	font-size: 1.5em;
+}
+.flechita {
+	position: absolute;
+	color: #666;
+	left: 50%;
+}
+.flechita:before {
+	font: 3em "iconitos";
+	content: "\f102";
+}
+.flechita:hover {
+	color: #fff;
+}
