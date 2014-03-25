@@ -64,7 +64,7 @@ html, body,
 	line-height: 200px;
 	text-align: center;
 }
-#fbsection1 {
+/*#fbsection1 {
 	background: #0B5FA5;
 }
 #fbsection2 {
@@ -78,9 +78,9 @@ html, body,
 }
 #fbsection5 {
 	background: #0B5FA5;
-}
+}*/
 
-/*#fbsection1 {
+#fbsection1 {
 	background-image: url(../img/1.png);}
 
 #fbsection2 {
@@ -98,5 +98,5 @@ html, body,
 #fbsection5 {
 	background-image: url(../img/5.png);
 }
-*/
+
 
